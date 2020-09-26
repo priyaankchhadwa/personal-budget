@@ -16,18 +16,23 @@
 </head>
 <body>
     <a class="skip-main" href="#main">Skip to main content</a>
+    <a class="skip-main" href="https://support.google.com/websearch/answer/181196?hl=en">Accessibility help</a>
 
-    <!-- Semantic Change 1: nav -->
-    <nav class="menu">
-        <a href="">Home</a>
-        <a href="./about.html">About</a>
-        <a href="./login.html">Login</a>
-        <a href="https://google.com">Google</a>
+    <div class="menu">
+        <!-- Semantic Change 1: nav -->
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="https://google.com">Google</a></li>
 
-        <!-- A11y Change 1: button -->
-        <button>Login</button>
-        <button>Register</button>
-    </nav>
+                <!-- A11y Change 1: button -->
+                <li><button type="button" aria-label="register" class="nav-right">Register</button></li>
+            </ul>
+        </nav>
+    </div>
+
 
     <!-- A11y Change 2: main -->
     <main id="main">
@@ -73,7 +78,7 @@
                 </div>
 
                 <!-- A11y Change 3: img alt -->
-                <img src="budget.jpg" alt="image to portray budget and bills" style="width: 350px; display: block; align-self: center;">
+                <!-- <img src="budget.jpg" alt="image to portray budget and bills" style="width: 350px; display: block; margin-right: auto; margin-left: auto;"> -->
 
                 <div class="text-box">
                     <h1>Stay on track</h1>
