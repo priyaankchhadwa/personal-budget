@@ -3,103 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Change 1: meta -->
+    <meta name="description" content="An app for managing your budget">
+
     <title>Personal Budget</title>
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./main.css">
+
+    <!-- SEO Change 2: canonical -->
+    <link rel="canonical" href="198.199.68.4/">
 </head>
 <body>
+    <a class="skip-main" href="#main">Skip to main content</a>
 
-    <div class="menu">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./login.html">Login</a></li>
-            <li><a href="https://google.com">Google</a></li>
-        </ul>
-    </div>
+    <!-- Semantic Change 1: nav -->
+    <nav class="menu">
+        <a href="">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./login.html">Login</a>
+        <a href="https://google.com">Google</a>
 
-    <div class="hero">
-        <h1>Personal Budget</h1>
-        <h2>A personal-budget management app</h2>
-    </div>
+        <!-- A11y Change 1: button -->
+        <button>Login</button>
+        <button>Register</button>
+    </nav>
 
-    <div class="container center">
-
-        <div class="page-area">
-
-            <div class="text-box">
-                <h1>Stay on track</h1>
-                <p>
-                    Do you know where you are spending your money? If you really stop to track it down,
-                    you would get surprised! Proper budget management depends on real data... and this
-                    app will help you with that!
-                </p>
-            </div>
-
-            <div class="text-box">
-                <h1>Alerts</h1>
-                <p>
-                    What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
-                </p>
-            </div>
-
-            <div class="text-box">
-                <h1>Results</h1>
-                <p>
-                    People who stick to a financial plan, budgeting every expense, get out of debt faster!
-                    Also, they to live happier lives... since they expend without guilt or fear...
-                    because they know it is all good and accounted for.
-                </p>
-            </div>
-
-            <div class="text-box">
-                <h1>Free</h1>
-                <p>
-                    This app is free!!! And you are the only one holding your data!
-                </p>
-            </div>
-
-            <div class="text-box">
-                <h1>Stay on track</h1>
-                <p>
-                    Do you know where you are spending your money? If you really stop to track it down,
-                    you would get surprised! Proper budget management depends on real data... and this
-                    app will help you with that!
-                </p>
-            </div>
-
-            <div class="text-box">
-                <h1>Alerts</h1>
-                <p>
-                    What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
-                </p>
-            </div>
-
-            <div class="text-box">
-                <h1>Results</h1>
-                <p>
-                    People who stick to a financial plan, budgeting every expense, get out of debt faster!
-                    Also, they to live happier lives... since they expend without guilt or fear...
-                    because they know it is all good and accounted for.
-                </p>
-            </div>
-
-            <div class="text-box">
-                <h1>Free</h1>
-                <p>
-                    This app is free!!! And you are the only one holding your data!
-                </p>
-            </div>
-
+    <!-- A11y Change 2: main -->
+    <main id="main">
+        <div class="hero">
+            <h1>Personal Budget</h1>
+            <h2>A personal-budget management app</h2>
         </div>
 
-    </div>
+        <div class="container center">
 
-    <div class="bottom">
-        <div class="center">
-            All rights reserved &copy; Fabio Nolasco
+            <div class="page-area">
+
+                <div class="text-box">
+                    <h1>Stay on track</h1>
+                    <article>
+                        Do you know where you are spending your money? If you really stop to track it down,
+                        you would get surprised! Proper budget management depends on real data... and this
+                        app will help you with that!
+                    </article>
+                </div>
+
+                <div class="text-box">
+                    <h1>Alerts</h1>
+                    <article>
+                        What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
+                    </article>
+                </div>
+
+                <div class="text-box">
+                    <h1>Results</h1>
+                    <article>
+                        People who stick to a financial plan, budgeting every expense, get out of debt faster!
+                        Also, they to live happier lives... since they expend without guilt or fear...
+                        because they know it is all good and accounted for.
+                    </article>
+                </div>
+
+                <div class="text-box">
+                    <h1>Free</h1>
+                    <article>
+                        This app is free!!! And you are the only one holding your data!
+                    </article>
+                </div>
+
+                <!-- A11y Change 3: img alt -->
+                <img src="budget.jpg" alt="image to portray budget and bills" style="width: 350px; display: block; align-self: center;">
+
+                <div class="text-box">
+                    <h1>Stay on track</h1>
+                    <article>
+                        Do you know where you are spending your money? If you really stop to track it down,
+                        you would get surprised! Proper budget management depends on real data... and this
+                        app will help you with that!
+                    </article>
+                </div>
+
+                <div class="text-box">
+                    <h1>Alerts</h1>
+                    <article>
+                        What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
+                    </article>
+                </div>
+
+                <div class="text-box">
+                    <h1>Results</h1>
+                    <article>
+                        People who stick to a financial plan, budgeting every expense, get out of debt faster!
+                        Also, they to live happier lives... since they expend without guilt or fear...
+                        because they know it is all good and accounted for.
+                    </article>
+                </div>
+
+                <div class="text-box">
+                    <h1>Free</h1>
+                    <article>
+                        This app is free!!! And you are the only one holding your data!
+                    </article>
+                </div>
+
+            </div>
+
+            <!-- SEO change 3: building links -->
+            <div>
+                Read
+                <a href="https://money.usnews.com/money/personal-finance/saving-and-budgeting/articles/how-to-determine-budget-percentages-to-meet-your-money-goals">more</a>
+                about budgeting!
+            </div>
+
+            <!-- Semantic Change 2: summary -->
+            <summary>
+
+                <!-- SEO -->
+                <h3>You can use this app to manage your expense well.</h3>
+
+            </summary>
         </div>
-    </div>
+
+    </main>
+
+    <!-- Semantic Change 3: footer -->
+    <footer>
+        <div class="bottom">
+            <div class="center">
+                All rights reserved &copy; Priyaank Chhadwa
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
